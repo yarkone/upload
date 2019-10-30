@@ -36,5 +36,5 @@ $(function() {
 	});
 	$menu.html(html.join(''));
 	
-	$menu.find('menu-item[data-key='+ $menu.data('key') +']').addClass('active')
+	$menu.find('.menu-item[data-key='+ $menu.data('key') +']').addClass('active')
 });
